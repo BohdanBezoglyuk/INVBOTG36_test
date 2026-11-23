@@ -8,7 +8,7 @@ import feedparser, requests, yfinance as yf
 TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 STATE_FILE = Path("state.json")
-UA = {"User-Agent": "TechStockBot/1.0 (contact: your_email@example.com)"}  # SEC требует контакт
+UA = {"User-Agent": "TechStockBot/1.0 (contact: grims111111@gmail.com)"}  # SEC требует контакт
 
 DEFAULT = {
     "AAPL": "Apple", "MSFT": "Microsoft", "NVDA": "NVIDIA", "GOOGL": "Alphabet",
